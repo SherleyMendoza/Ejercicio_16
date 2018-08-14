@@ -8,7 +8,7 @@ namespace Ejercicio_16
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)  //Sherley Naomi Marcelino Mendoza.
         {
             //Variables.
             bool cliente = true;
