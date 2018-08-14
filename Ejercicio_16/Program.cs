@@ -17,6 +17,17 @@ namespace Ejercicio_16
             string leer = string.Empty;
             int edad = 0;
 
+            Console.WriteLine("Nombre(s):   Sheley Naomi. ");         //Nombre.
+            Console.WriteLine("===================================");
+            Console.WriteLine("Apellido(s): Marcelino Mendoza ");     //Apellido.
+            Console.WriteLine("===================================");
+            Console.WriteLine("Matricula:   17-MIIN-1-123  ");        //Matricula.
+            Console.WriteLine("===================================");
+            Console.WriteLine("Seccion:     0463");                     //Sección.
+            Console.WriteLine("===================================");
+            Console.WriteLine("Materia:     Programacion Estructurada"); //Materia.
+            Console.WriteLine("===================================");
+            Console.WriteLine("\n\n");
 
             Console.WriteLine("Ingrese el valor de la boleta: "); //Entrada.
             monto = Convert.ToDecimal(Console.ReadLine());
@@ -69,10 +80,22 @@ namespace Ejercicio_16
                 else if (leer == "c" || leer == "C")
                 {
                     Console.Clear();
-                    Console.WriteLine("\n--------------------Cierre de Caja-----------------\nLa Cantidad de cliente es: " + cantidadCliente);
+                    Console.WriteLine("\n");
+                    Console.WriteLine("\n--------------------Cierre de Caja-----------------\n\nLa Cantidad de cliente es: " + cantidadCliente);
+                    Console.WriteLine("\n");
                     Console.WriteLine("El Valor Total es: " + descuentoTotal);
                     Console.WriteLine("\nFecha: " + DateTime.Now.ToString("dd/MM/yyyy"));
-                    Console.WriteLine("Sherley Mendoza."); //Nombre.
+                    Console.WriteLine("\n");
+                    Console.WriteLine("Nombre(s):   Sheley Naomi. ");         
+                    Console.WriteLine("===================================");
+                    Console.WriteLine("Apellido(s): Marcelino Mendoza ");     
+                    Console.WriteLine("===================================");
+                    Console.WriteLine("Matricula:   17-MIIN-1-123  ");        
+                    Console.WriteLine("===================================");
+                    Console.WriteLine("Seccion:     0463");                     
+                    Console.WriteLine("===================================");
+                    Console.WriteLine("Materia:     Programacion Estructurada"); 
+                    Console.WriteLine("===================================");
                     Console.ReadKey();
                     cliente = true;
                 }
